@@ -1,0 +1,23 @@
+{
+  "Bed_Room": {
+    "AirCondition": "ON",
+    "Lamp": "OFF",
+    "TV": "OFF"
+  },
+  "DHT11": {
+    "Do am": 70,
+    "Nhiet do": 31.8
+  },
+  "Kitchen_Room": {
+    "Exhaust": "OFF",
+    "Fridge": "OFF",
+    "Light": "OFF",
+    "Stove": "OFF"
+  },
+  "Living_Room": {
+    "Camera": "OFF",
+    "Fan": "OFF",
+    "Lamp": "OFF",
+    "TV": "OFF"
+  }
+}

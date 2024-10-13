@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/drawable/botron.xml" value="0.223" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1675" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.1675" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1675" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/bedroom.xml" value="0.264" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/dialog.xml" value="0.22826086956521738" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/fragment_n_k_profile.xml" value="0.11203703703703703" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/fragment_person_hoangvinh.xml" value="0.264" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/fragment_person_nhatbang.xml" value="0.264" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/fragment_q_l_profile.xml" value="0.11203703703703703" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/fragment_v_b_profile.xml" value="0.11203703703703703" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/kitchenroom.xml" value="0.264" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/livingroom.xml" value="0.264" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/person.xml" value="0.253125" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/profile.xml" value="0.264" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/register.xml" value="0.264" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/layout/room.xml" value="0.264" />
+        <entry key="..\:/do_an_1/App_dktb/app/src/main/res/menu/menu_navigation.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

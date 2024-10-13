@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F7F9F9 "
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <TextView
+        android:id="@+id/bedroomheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+
+        android:text="Bed Room"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/aircondition"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        android:layout_below="@id/bedroomheader"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/botron"
+        android:backgroundTint="#E5E7E9">
+
+
+        <Switch
+            android:id="@+id/switchairconditon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Air conditon      "
+            android:textSize="25dp"
+
+
+            />
+
+        <ImageView
+            android:id="@+id/imageaircondition"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="-20dp"
+            android:layout_below="@id/switchairconditon"
+            android:src="@drawable/air_condition" />
+
+        <TextView
+            android:id="@+id/tv_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/imageaircondition"
+            android:gravity="center"
+            android:textSize="25dp" />
+
+
+        <SeekBar
+
+            android:id="@+id/seekBar"
+            style="@style/Widget.AppCompat.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageaircondition"
+            android:layout_marginTop="50dp"
+            android:max="30"
+            android:min="16"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_below="@id/aircondition"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/botron"
+        android:backgroundTint="#E5E7E9"
+        >
+
+        <ImageView
+            android:id="@+id/lampicon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+
+            android:layout_marginTop="20dp"
+            android:src="@drawable/lamp"
+
+            />
+
+        <Switch
+            android:id="@+id/swlampp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lampicon"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#2874A6 "
+            android:padding="20dp"
+            android:text="Lamp"
+
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+
+        android:layout_below="@id/aircondition"
+        android:layout_marginLeft="180dp"
+
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/botron"
+        android:backgroundTint="#E5E7E9"
+        >
+
+        <ImageView
+            android:id="@+id/tvicon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/tv"
+
+            />
+
+        <Switch
+            android:id="@+id/swTvv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvicon"
+            android:text="TV"
+            android:layout_marginTop="15dp"
+            android:padding="20dp"
+            android:backgroundTint="#2874A6 "
+
+
+            />
+    </RelativeLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/botron"
+
+        app:itemIconTint="#2196F3"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/menu_navigation" />
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="#FBFCFC ">
+
+    <TextView
+        android:id="@+id/infomation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="MEMBER"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/nk"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@+id/infomation"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/nktxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nk"
+
+        android:gravity="center"
+        android:text="Nguyễn Thị Nhật Băng"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nkposition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nktxt"
+
+
+        android:gravity="center"
+        android:text="Front-end Mobile"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/idtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nkposition"
+        android:layout_marginTop="30dp"
+        android:text="ID Number   : 19119013"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+
+    <TextView
+        android:id="@+id/emailtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idtxt"
+        android:text="Email: 19119013@student.hcmute.edu.vn "
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/phonetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailtxt"
+        android:layout_marginTop="3dp"
+        android:text="Phone           : 0855558021"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
